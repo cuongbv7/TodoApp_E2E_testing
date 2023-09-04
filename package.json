@@ -1,0 +1,17 @@
+{
+  "name": "playwrighlearning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "chrome_test": "npx playwright test --project=chrome"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.34.0",
+    "allure-playwright": "^2.0.0",
+    "global-agent": "^3.0.0"
+  }
+}
